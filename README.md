@@ -19,8 +19,18 @@ None.
 
 # Installation
 
-1. download https://github.com/akovantsev/wayback-url/tree/master/extension folder
-1. open [chrome://extensions/](chrome://extensions/)
+0. download https://github.com/akovantsev/wayback-url/tree/master/extension folder
+
+## Firefox
+
+1. open `about:debugging#/runtime/this-firefox`
+1. click `load temporary add-on...` (top right)
+1. upload that downloaded folder
+1. done
+
+## Chrome
+
+1. open `chrome://extensions/`
 1. enable `Developer mode` (top right) 
 1. click `LOAD UNPACKED` (top left)
 1. upload that downloaded folder
