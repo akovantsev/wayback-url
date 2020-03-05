@@ -1,0 +1,16 @@
+  {
+    "manifest_version": 2,
+    "name": "Wayback url",
+    "version": "1.2020.03.05",
+    "description": "On click, prepends 'https://web.archive.org/web/' to current tab's url.",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_title": "open in Internet Archive"
+    },
+    "permissions": ["activeTab"],
+    "offline_enabled": false,
+    "author": "Misha Akovantsev"
+  }
